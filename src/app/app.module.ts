@@ -9,6 +9,8 @@ import { PostComponent } from './components/posts/post/post.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppMaterialModule } from './app-material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { ListDeportesComponent } from './components/posts/list-deportes/list-deportes.component';
+import { ListEducacionComponent } from './components/posts/list-educacion/list-educacion.component';
 
 
 @NgModule({
@@ -16,7 +18,9 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     AppComponent,
     HomeComponent,
     PostsListComponent,
-    PostComponent
+    PostComponent,
+    ListDeportesComponent,
+    ListEducacionComponent
   ],
   imports: [
     BrowserModule,

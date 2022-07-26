@@ -1,0 +1,7 @@
+{
+    "/wp-json/last-post/v2/category/*":{
+        "target":"http://localhost:4200",
+        "secure":false,
+        "logLebel":"debug"
+    }
+}
